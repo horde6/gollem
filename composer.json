@@ -1,5 +1,8 @@
 {
-    "name": "horde/gollem",
+    "name": "horde6/gollem",
+    "replace": {
+        "horde/gollem": "^5 || dev-FRAMEWORK_6_0"
+    },
     "description": "File manager application",
     "type": "horde-application",
     "homepage": "https://www.horde.org/apps/gollem",
@@ -25,7 +28,7 @@
     "repositories": [],
     "require": {
         "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0 || ^3 || ^2",
-        "php": "^7.4 || ^8",
+        "php": "^8",
         "horde/horde": "^6 || dev-FRAMEWORK_6_0",
         "horde/auth": "^3 || dev-FRAMEWORK_6_0",
         "horde/cache": "^3 || dev-FRAMEWORK_6_0",
